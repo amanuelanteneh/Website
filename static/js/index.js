@@ -23,12 +23,14 @@ navButtons.style.transition = "transform 0.2s linear";
 var hamMenuOpen = 0; 
 hamMenu.addEventListener('click', () => { 
     if (!hamMenuOpen) {    //hamburger menu squish animation
-        bar1.style.transform = "translateY(" + "9px" + ")";
-        bar3.style.transform = "translateY(" + "-9px" + ")"; 
+        bar1.style.transform = "translateY(" + "9px" + ") rotate(45deg)";
+        bar2.style.display = "none";
+        bar3.style.transform = "translateY(" + "-9px" + ") rotate(-45deg)";
         navButtons.classList.toggle('active');
     }
     else {
         bar1.style.transform = "translateY(" + "-0.5px" + ")";
+        bar2.style.display = "flex";       
         bar3.style.transform = "translateY(" + "0.5px" + ")"; 
         interestsMenu.style.display = "none";
         pdfsMenu.style.display = "none";        
@@ -93,12 +95,14 @@ $("li").on("click", function() {
     }
     if ($(this).attr("id") != "interests" && $(this).attr("id") != "pdfs" && $(this).attr("id") != "cv-github" && $(this).attr("class") == "navBar-li" ) {
         if (!hamMenuOpen) {    //hamburger menu squish animation
-        bar1.style.transform = "translateY(" + "9px" + ")";
-        bar3.style.transform = "translateY(" + "-9px" + ")"; 
+        bar1.style.transform = "translateY(" + "9px" + ") rotate(45deg)";
+        bar2.style.display = "none";
+        bar3.style.transform = "translateY(" + "-9px" + ") rotate(-45deg)";
         navButtons.classList.toggle('active');
             }
         else {
         bar1.style.transform = "translateY(" + "-0.5px" + ")";
+        bar2.style.display = "flex";
         bar3.style.transform = "translateY(" + "0.5px" + ")"; 
         navButtons.classList.toggle('active');   
         interestsMenu.style.display = "none";
