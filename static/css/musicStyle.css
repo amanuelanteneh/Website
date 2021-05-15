@@ -89,6 +89,7 @@ body {
     -ms-overflow-style: none;  /* For IE and Edge */
     scrollbar-width: none;  /* For Firefox */
     scroll-behavior: smooth;
+    font-size: 3vmin;
 }
 
 .info::-webkit-scrollbar{
@@ -111,6 +112,30 @@ body {
 }
 
 
+@media (max-width: 940px) {
 
+.musicBubble {
+    border-radius: 10px;
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    height: 40vmax;
+    width: 40vmax;
+    font-family: 'Courier New', Courier, monospace;  
+    font-size: 2.6vmin;
+    overflow: hidden;
+}
+
+.musicBubble:hover {
+      height: 50vmax;
+      transition: .3s ease-in-out;
+}
+
+.info {
+     font-size: 5.5vmin;
+}
+
+}
 
 
