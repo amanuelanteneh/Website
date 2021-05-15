@@ -29,6 +29,10 @@ def readings():
 def essays():
     return(render_template("essays.html"))
 
+@app.route("/music")
+def music():
+    return(render_template("music.html"))
+
 @app.route("/TheModernUniversity")
 def essay1():
     return(render_template("The-Modern-University.html"))
