@@ -43,11 +43,12 @@ body {
      text-align: center;
 }
 
-a { /* for home anchor tag */
+.home-button a { /* for home anchor tag */
   text-decoration: none;
   color: white;
  }
- 
+
+
 .caption {
    display: block; /* to have text appear below icon */
    font-family: 'Courier New', Courier, monospace;
@@ -93,6 +94,11 @@ a { /* for home anchor tag */
 .info::-webkit-scrollbar{
   display: none; /* For Chrome */
   scroll-behavior: smooth;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
 }
 
 .album-pic:hover .info {
