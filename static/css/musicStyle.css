@@ -53,6 +53,7 @@ body {
  }
 
 
+
 .caption {
    display: block; /* to have text appear below icon */
    font-family: 'Courier New', Courier, monospace;
@@ -104,6 +105,11 @@ body {
 
 .info a {
   text-decoration: none;
+  color: white;
+}
+
+.info a:hover {
+  text-decoration: underline;
   color: white;
 }
 
