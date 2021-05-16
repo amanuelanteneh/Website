@@ -131,8 +131,8 @@ body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     text-align: center;
-    height: 40vmax;
-    width: 40vmax;
+    height: 30vmax;
+    width: 30vmax;
     font-family: 'Courier New', Courier, monospace;  
     font-size: 2.6vmin;
     overflow: hidden;
