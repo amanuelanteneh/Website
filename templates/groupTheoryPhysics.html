@@ -9,10 +9,13 @@
 
     <link rel="icon" href="{{ url_for('static', filename='img/discreteGroupIcon.png') }}">
 
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>   
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js" defer></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://82mou.github.io/threejs/js/OrbitControls.js"></script> <!--For camera-->
+   <script src="{{url_for('static', filename='js/groupTheoryPhysicsScript.js')}}" defer></script>
+
 
 </head>
 
@@ -50,6 +53,22 @@ button {
     padding: 5%;
     width: 90%;
 
+}
+
+button {
+    display: inline;
+    margin-left: 2rem;
+    background-color: #333333;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1px; 
+    font-size: 2.5vmin;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .section { /* section class goes within block class divs */
@@ -163,14 +182,20 @@ a {
     <br><br>The group \(G := \{\mathbb{Z},+\}\) satisfies all of these conditions where \(e=0\),
     \( a^{-1} = -a \), the associative law holds for integers and the sum of two integers is also an integer.
     <br> Group theory, particularly group theory for finite groups, has certain useful applications to condensed matter and 
-    quantum physics. One kind of group that is of interest is the permutation group denoted \(S_n\).  
+    quantum physics. One kind of group that is of interest is the permutation group denoted \(S_n\). The main idea is that 
+    molecules exhibit certain symmetries. For example consider a hypothetical molecule that has oxygen atoms placed at each 
+    vertex of an equilateral triangle as shown below. 
 
 </p>
 
 </div>
+<div class="block" style="height:40vmax" id="block1">
+    <div class="section">
+    <button type="button" id="c4Button">\( C_4 \)</button>   
+    </div>
 
+</div>
 
 </body>
-
 
 </html>
