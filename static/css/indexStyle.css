@@ -209,9 +209,9 @@ ul li ul li {  /* for dropdown */
     width: 55vmin;
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
-    animation-name: float;
+   /* animation-name: float;
     animation-duration: 2s;
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite; */
     cursor: pointer;
     overflow: scroll;
     -ms-overflow-style: none;  /* For IE and Edge */
