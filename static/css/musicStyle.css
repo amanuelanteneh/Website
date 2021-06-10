@@ -122,6 +122,20 @@ body {
       transition: .3s ease-in-out;
 }
 
+#bubbleContainer {
+   backdrop-filter: blur(2px); 
+   -webkit-backdrop-filter: blur(2px); 
+   border: 2px solid white; 
+   border-radius: 20px;
+   overflow: scroll;
+   -ms-overflow-style: none;  /* For IE and Edge */
+   scrollbar-width: none;  /* For Firefox */
+
+}
+
+#bubbleContainer::-webkit-scrollbar {
+  display: none; /* For Chrome */
+}
 
 @media (max-width: 940px) {
 
