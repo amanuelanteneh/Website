@@ -137,7 +137,7 @@ body {
   display: none; /* For Chrome */
 }
 
-.container-fluid {
+.bubbleContainer {
   height: 70%;
 }
 
