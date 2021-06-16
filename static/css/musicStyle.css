@@ -137,6 +137,10 @@ body {
   display: none; /* For Chrome */
 }
 
+.container-fluid {
+  height: 70%;
+}
+
 @media (max-width: 940px) {
 
 .musicBubble {
