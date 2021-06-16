@@ -130,15 +130,12 @@ body {
    overflow: scroll;
    -ms-overflow-style: none;  /* For IE and Edge */
    scrollbar-width: none;  /* For Firefox */
+   height: 50%;
 
 }
 
 #bubbleContainer::-webkit-scrollbar {
   display: none; /* For Chrome */
-}
-
-.bubbleContainer {
-  height: 70%;
 }
 
 @media (max-width: 940px) {
