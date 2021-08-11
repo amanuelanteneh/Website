@@ -10,8 +10,8 @@ var albumPics = ["/static/img/the1975.png","/static/img/loveitwhenu.png","/stati
                  "/static/img/revelations.png","/static/img/atake.png", "https://upload.wikimedia.org/wikipedia/en/2/2d/Moral_Panic_Nothing_But_Thieves.jpg",
                 "https://images-na.ssl-images-amazon.com/images/I/81Bbs8DYIHL._AC_SX522_.jpg", "https://i.scdn.co/image/ab67616d0000b27382fed5cf43d9b874184c6e00",
                 "/static/img/origin.png", "https://upload.wikimedia.org/wikipedia/en/7/7d/TheOff-Season.jpeg", "https://m.media-amazon.com/images/I/A1AHAMAExuL._SS500_.jpg",
-                "https://en.wikipedia.org/wiki/Broken_Machine_(album)#/media/File:Broken_machine-nbt1.jpg","https://images.genius.com/5dedb47d3cd04901ffe7be87ecf9e10a.600x600x1.jpg",
-                "https://en.wikipedia.org/wiki/VI_(You_Me_at_Six_album)#/media/File:YMAS_VI.jpg"];
+                "https://images.genius.com/c8a0dba90778be71f3da065544473e13.1000x1000x1.jpg","https://images.genius.com/5dedb47d3cd04901ffe7be87ecf9e10a.600x600x1.jpg",
+                "https://images.genius.com/d7d5d63b708a1b83daf2df4a1b6bdcd9.1000x1000x1.jpg"];
 var albumPicElements = document.getElementsByClassName("album-pic");
 
 
