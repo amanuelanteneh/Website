@@ -71,6 +71,7 @@ body {
     font-family: 'Courier New', Courier, monospace;  
     font-size: 2.6vmin;
     overflow: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .album-pic {
@@ -155,6 +156,7 @@ body {
 .musicBubble:hover {
       height: 50vmax;
       transition: .3s ease-in-out;
+
 }
 
 .info {
