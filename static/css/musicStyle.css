@@ -71,13 +71,11 @@ body {
     font-family: 'Courier New', Courier, monospace;  
     font-size: 2.6vmin;
     overflow: hidden;
-    -webkit-backface-visibility: hidden;
 }
 
 .album-pic {
       width: 100%;
       height: 100%;
-      background-image: url("/static/img/peep.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;    
@@ -120,7 +118,9 @@ body {
 
 .musicBubble:hover {
       height: 40vmin;
-      transition: .3s ease-in-out;
+      /*transition: .3s ease-in-out;*/
+      transition: 200ms linear;
+
 }
 
 #bubbleContainer {
