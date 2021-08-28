@@ -118,7 +118,6 @@ body {
 
 .musicBubble:hover {
       height: 40vmin;
-      /*transition: .3s ease-in-out;*/
       transition: 200ms linear;
 
 }
@@ -129,9 +128,11 @@ body {
    border: 2px solid white; 
    border-radius: 20px;
    overflow: scroll;
+   display: block;
    -ms-overflow-style: none;  /* For IE and Edge */
    scrollbar-width: none;  /* For Firefox */
-   height: 50%;
+   height: 30rem;
+   width: 100%;
 }
 
 #bubbleContainer::-webkit-scrollbar {
@@ -161,6 +162,12 @@ body {
 
 .info {
      font-size: 5.5vmin;
+}
+
+#bubbleContainer {
+
+ height: 100%;
+
 }
 
 }
